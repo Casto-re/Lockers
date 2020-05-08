@@ -1,0 +1,15 @@
+/* Estilos en bloque para el boton de captacha */
+input[type="button"]{
+    margin: 20px auto;
+    display: block;
+    margin-top: 0px;
+    width: 320px;
+    height: 35px;
+    background-color: #0098cb;
+    color: #fff;
+    padding: 0px;
+    border: solid 1px #eee;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

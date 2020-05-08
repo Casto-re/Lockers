@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+input[type="text"], input[type="password"]{
+    /* Propiedad encargada de quitar el espaciado externo entre el borde y el margen */
+    outline: none;
+    padding: 20px;
+    /* Propiedad encargada de colocar los elementos como si fueran cajas (uno encima del otro) */
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: solid 1px #eee;
+    /* Propiedad "auto" encargada de alinear al centro los elementos */
+    margin: 20px auto;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    color: #fff;
+    background-color: #0098cb;
+    width: 320px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    /* Propiedad encargada de modificar el icono del cursor al pasarlo por encima */
+    cursor: pointer;
+}
+input[type="submit"]:hover{ /* Pseudo clase propia del input tipo submit encargada de modificar el objeto al interactuar con el */
+    background-color: #00b8eb;
+}
+
+header{ 
+    border-bottom: solid 2px #eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+/* Estilos a la etiqueta "a" ubicada dentro del header */
+header a{
+    text-decoration: none;
+    color: #333;
+}
